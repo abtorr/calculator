@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.alberto-boton {
+ background-color: rgb(128, 128, 128);
+}
+
+
+.alberto-boton-2 {
+  background-color: rgb(128, 128, 128);
+}
+
+
+.alberto-boton-3 {
+  background-color: rgb(128, 128, 128);
+}
+
+.alberto-boton-4 {
+  background-color: rgb(128, 128, 128);
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.result-image {
+  width: 100px; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.App {
+  text-align: center;
+  background-color: #3e3e3e; /* Cambia este color según tu preferencia */
+  min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-image {
+  width: 200px; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
